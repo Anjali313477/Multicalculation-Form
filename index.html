@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.queary.css">
+</head>
+
+<body class="flex">
+    <div class="box">
+        <h2>MultiCalc Form</h2>
+        <form>
+            <div class="one">
+                <label for="firstnumber">First Number:-</label>
+                <input type="number" id="firstnumber" placeholder="Enter The First Number">
+            </div>
+            <div class="one">
+                <label for="secondnumber">Second Number:-</label>
+                <input type="number" id="secondnumber" placeholder="Enter The Second Number">
+            </div>
+            <div class="choose">
+                <label for="add">Additon</label><input type="radio" id="add" name="sum">
+                <label for="multiply">Multiply</label><input type="radio" id="multiply" name="sum">
+                <label for="minus">Subtraction</label><input type="radio" id="minus" name="sum">
+                <label for="divide">Division</label><input type="radio" id="divide" name="sum">
+            </div>
+            <div class="one">
+                <label for="sum">Sum:-</label>
+                <input type="number" id="sum" placeholder="" readonly>
+            </div>
+            <div><BUtton type="submit" id="btn">Submit</BUtton></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

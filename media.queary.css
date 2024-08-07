@@ -1,0 +1,10 @@
+@media screen and (max-width:450px) {
+    .one input {
+        width: 100%;
+        height: 5vh;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}
