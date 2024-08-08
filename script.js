@@ -24,6 +24,6 @@ btn.addEventListener("click", (event) => {
     } else if (sbtrct.checked) {
         result.value = parseInt(num1) - parseInt(num2);
     } else if (dvsn.checked) {
-        result.value = parseIntr(num1) / parseInt(num2);
+        result.value = parseInt(num1) / parseInt(num2);
     }
 })
